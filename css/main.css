@@ -1,6 +1,6 @@
 .container{
     font-family: 'Montserrat', sans-serif;
-    box-sizing: content-box;
+    box-sizing: border-box;
 
 }
 
@@ -381,6 +381,12 @@
     margin: 0;
 }
 
+/*.services-tabs-title.active_tab::after{*/
+/*    content: url(http://static.skaip.org/img/emoticons/180x180/f6fcff/penguin.gif);*/
+/*    */
+/*}*/
+
+
 .services-tabs-title.active_tab:after{
     /*margin: 0;*/
     /*width: 27px;*/
@@ -400,15 +406,9 @@
     /*!!!!! підігнати під макет точний трикутник*/
 }
 
-/*.services-tabs-title.active_tab::after{*/
-/*    content: url(http://static.skaip.org/img/emoticons/180x180/f6fcff/penguin.gif);*/
-/*    */
-/*}*/
-
 .services-tabs-title:hover{
     border: 1.5px solid #18CFAB;
-    box-sizing: content-box;
-    margin: 0;
+    box-sizing: border-box;
 }
 
 .services-content .content-item {
@@ -1145,7 +1145,3 @@ max-width: 1160px;
 .footer-color{
 color: #18CFAB;
 }
-
-
-
-
